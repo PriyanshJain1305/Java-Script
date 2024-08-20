@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <html http-equiv="X-UA-Compatible" content="IE=edge">
+    <head name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | PRIYANSH |Chai aur code </title>
+</head>
+<body  style="background-color: #212121; color: #ca0b0b;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className ="priyansh"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title" , "Mr.Priyansh")
+    div.style.backgroundColor = 'skyblue'
+    div.style.padding = "20px"
+    div.style.borderRadius = "10px"
+    // div.innerText =" chim chappak chamcham "
+    const AddText = document.createTextNode("dhim dhapak damdam")
+    div.appendChild(AddText)
+
+    document.body.appendChild(div)
+</script>
+</html>
